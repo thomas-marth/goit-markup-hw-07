@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Портфолио | WebStudio</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <!-- Шапка сайта -->
+    <header class="page-header">
+      <div class="container header-nav">
+        <nav class="nav-section">
+          <a href="./" class="logo">Web<span class="studio">Studio</span></a>
+
+          <ul class="site-nav list">
+            <li class="item"><a href="./" class="link">Студия</a></li>
+            <li class="item">
+              <a href="./portfolio.html" class="link current">Портфолио</a>
+            </li>
+            <li class="item"><a href="" class="link">Контакты</a></li>
+          </ul>
+        </nav>
+
+        <ul class="header-contacts list">
+          <li class="item">
+            <a href="mailto:info@devstudio.com" class="link">
+              <svg class="icon-contacts" width="16" height="12">
+                <use href="./images/icons/sprite.svg#icon-envelope"></use>
+              </svg>
+              info@devstudio.com
+            </a>
+          </li>
+          <li class="item">
+            <a href="tel:+380961111111" class="link">
+              <svg class="icon-contacts" width="10" height="16">
+                <use href="./images/icons/sprite.svg#icon-smartphone"></use>
+              </svg>
+              +38 096 111 11 11</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <main>
+      <section class="portfolio">
+        <div class="container">
+          <!-- Фильтры -->
+
+          <ul class="filters list">
+            <li class="item"><button type="button">Все</button></li>
+            <li class="item"><button type="button">Веб-сайты</button></li>
+            <li class="item"><button type="button">Приложения</button></li>
+            <li class="item"><button type="button">Дизайн</button></li>
+            <li class="item"><button type="button">Маркетинг</button></li>
+          </ul>
+
+          <!-- Портфолио -->
+
+          <ul class="project list">
+            <li class="cards">
+              <a href="" class="item">
+                <div class="project-thumb">
+                  <img
+                    src="./images/technokryak.jpg"
+                    alt="дисплей ноутбука с демонстрацией сайта Технокряк"
+                    width="370"
+                  />
+                  <p class="overlay">
+                    Технокряк это современная площадка распространения
+                    коронавируса. Компании используют эту платформу для
+                    цифрового шпионажа и атак на защищённые сервера конкурентов.
+                  </p>
+                </div>
+                <div class="content-box">
+                  <h3 class="title">Технокряк</h3>
+                  <p class="type">Веб-сайт</p>
+                </div>
+              </a>
+            </li>
+            <li class="cards">
+              <a href="" class="item">
+                <div class="project-thumb">
+                  <img
+                    src="./images/poster.jpg"
+                    alt="Два баскетболиста из команд New Orleans и Golden Star сражаются за мяч"
+                    width="370"
+                  />
+                  <p class="overlay">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Ut, omnis totam. Unde doloribus quo sequi fuga quibusdam,
+                    id, nisi eveniet nobis facilis assumenda eaque
+                  </p>
+                </div>
+                <div class="content-box">
+                  <h3 class="title">Постер New Orlean vs Golden Star</h3>
+                  <p class="type">Дизайн</p>
+                </div>
+              </a>
+            </li>
+            <li class="cards">
+              <a href="" class="item">
+                <div class="project-thumb">
+                  <img
+                    src="./images/seafood.jpg"
+                    alt="логотип ресторана seafood"
+                    width="370"
+                  />
+                  <p class="overlay">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Ut, omnis totam. Unde doloribus quo sequi fuga quibusdam,
+                    id, nisi eveniet nobis facilis assumenda eaque
+                  </p>
+                </div>
+                <div class="content-box">
+                  <h3 class="title">Ресторан Seafood</h3>
+                  <p class="type">Приложение</p>
+                </div>
+              </a>
+            </li>
+            <li class="cards">
+              <a href="" class="item">
+                <div class="project-thumb">
+                  <img
+                    src="./images/prime.jpg"
+                    alt="Наушники черного цвета"
+                    width="370"
+                  />
+                  <p class="overlay">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Ut, omnis totam. Unde doloribus quo sequi fuga quibusdam,
+                    id, nisi eveniet nobis facilis assumenda eaque
+                  </p>
+                </div>
+                <div class="content-box">
+                  <h3 class="title">Проект Prime</h3>
+                  <p class="type">Маркетинг</p>
+                </div>
+              </a>
+            </li>
+            <li class="cards">
+              <a href="" class="item">
+                <div class="project-thumb">
+                  <img
+                    src="./images/boxes.jpg"
+                    alt="Две картонных коробки белого и коричневого цвета"
+                    width="370"
+                  />
+                  <p class="overlay">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Ut, omnis totam. Unde doloribus quo sequi fuga quibusdam,
+                    id, nisi eveniet nobis facilis assumenda eaque
+                  </p>
+                </div>
+                <div class="content-box">
+                  <h3 class="title">Проект Boxes</h3>
+                  <p class="type">Приложение</p>
+                </div>
+              </a>
+            </li>
+            <li class="cards">
+              <a href="" class="item">
+                <div class="project-thumb">
+                  <img
+                    src="./images/inspiration.jpg"
+                    alt="Интерфейс сайта Inspiration has no Borders на экране монитора"
+                    width="370"
+                  />
+                  <p class="overlay">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Ut, omnis totam. Unde doloribus quo sequi fuga quibusdam,
+                    id, nisi eveniet nobis facilis assumenda eaque
+                  </p>
+                </div>
+                <div class="content-box">
+                  <h3 class="title">Inspiration has no Borders</h3>
+                  <p class="type">Веб-сайт</p>
+                </div>
+              </a>
+            </li>
+            <li class="cards">
+              <a href="" class="item">
+                <div class="project-thumb">
+                  <img
+                    src="./images/limited-edition.jpg"
+                    alt="разворот журнала Limited Edition"
+                    width="370"
+                  />
+                  <p class="overlay">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Ut, omnis totam. Unde doloribus quo sequi fuga quibusdam,
+                    id, nisi eveniet nobis facilis assumenda eaque
+                  </p>
+                </div>
+                <div class="content-box">
+                  <h3 class="title">Издание Limited Edition</h3>
+                  <p class="type">Дизайн</p>
+                </div>
+              </a>
+            </li>
+            <li class="cards">
+              <a href="" class="item">
+                <div class="project-thumb">
+                  <img
+                    src="./images/lab.jpg"
+                    alt="белый ярлык на веревке с надписью Label Tag"
+                    width="370"
+                  />
+                  <p class="overlay">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Ut, omnis totam. Unde doloribus quo sequi fuga quibusdam,
+                    id, nisi eveniet nobis facilis assumenda eaque
+                  </p>
+                </div>
+                <div class="content-box">
+                  <h3 class="title">Проект LAB</h3>
+                  <p class="type">Маркетинг</p>
+                </div>
+              </a>
+            </li>
+            <li class="cards">
+              <a href="" class="item">
+                <div class="project-thumb">
+                  <img
+                    src="./images/growing-business.jpg"
+                    alt="Демонстрация сайта Growing Business на экране ноутбука"
+                    width="370"
+                  />
+                  <p class="overlay">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Ut, omnis totam. Unde doloribus quo sequi fuga quibusdam,
+                    id, nisi eveniet nobis facilis assumenda eaque
+                  </p>
+                </div>
+                <div class="content-box">
+                  <h3 class="title">Growing Business</h3>
+                  <p class="type">Приложение</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+
+    <footer>
+      <div class="container">
+        <div class="adress-wrapper">
+          <a href="./" class="logo">Web<span class="studio">Studio</span></a>
+          <address>
+            <p class="location">г. Киев, пр-т Леси Украинки, 26</p>
+            <a href="mailto:info@example.com" class="link">info@example.com</a
+            ><br />
+            <a href="tel:+380991111111" class="link">+38 099 111 11 11</a>
+          </address>
+        </div>
+        <div class="cta-wrapper">
+          <div class="social-wrapper">
+            <h3 class="footer-cta">присоединяйтесь</h3>
+            <ul class="footer-social list">
+              <li class="footer-social-items">
+                <a class="footer-social-links" href="">
+                  <svg class="footer-social-icon">
+                    <use href="./images/icons/sprite.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer-social-items">
+                <a class="footer-social-links" href="">
+                  <svg class="footer-social-icon">
+                    <use href="./images/icons/sprite.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer-social-items">
+                <a class="footer-social-links" href="">
+                  <svg class="footer-social-icon">
+                    <use href="./images/icons/sprite.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer-social-items">
+                <a class="footer-social-links" href="">
+                  <svg class="footer-social-icon">
+                    <use href="./images/icons/sprite.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="subscribe-wrapper">
+            <h3 class="footer-cta">Подпишитесь на рассылку</h3>
+
+            <form action="" class="subscribe-form">
+              <label for="mail"></label>
+              <input
+                type="email"
+                name="email"
+                id="mail"
+                class="footer-form-input"
+                placeholder="E-mail"
+              />
+              <button type="submit" class="btn">
+                Подписаться
+                <svg class="telegram-icon" width="24" height="24">
+                  <use href="./images/icons/sprite.svg#icon-telegram"></use>
+                </svg>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- End Footer -->
+  </body>
+</html>
