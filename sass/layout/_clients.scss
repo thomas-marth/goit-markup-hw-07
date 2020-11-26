@@ -1,0 +1,46 @@
+.clients-list {
+  display: flex;
+  margin-top: 50px;
+  padding-bottom: 93px;
+}
+
+.clients-icon {
+  fill: #afb1b8;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    fill: $accent-color;
+  }
+}
+
+.clients-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 90px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    border: 1px solid $accent-color;
+  }
+
+  &:hover svg,
+  &:focus svg {
+    fill: $accent-color;
+  }
+}
+
+.clients-item:hover {
+  fill: $accent-color;
+}
+
+.clients-item:not(:last-child) {
+  margin-right: 30px;
+}
