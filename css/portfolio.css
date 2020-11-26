@@ -34,6 +34,10 @@ a {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+address {
+  font-style: normal;
+}
+
 button {
   padding: 0;
   border: none;
@@ -413,6 +417,7 @@ footer .container {
   line-height: 1.71;
   display: inline-block;
   margin-top: 9px;
+  text-decoration: none;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
